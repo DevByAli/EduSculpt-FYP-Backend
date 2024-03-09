@@ -207,7 +207,7 @@ export const addQuestion = CatchAsyncError(async (req: Request, res: Response, n
     // add this question to our course content
     courseContent.questions.push(newQuestion as IComment)
 
-    // Send the notification to the Admin that new notification is asked by the user
+    // Send the notification to the Admin that new question is asked by the user
     await NotificationModel.create({
       user: req.user?._id,
       title: 'New Question Recieved',
