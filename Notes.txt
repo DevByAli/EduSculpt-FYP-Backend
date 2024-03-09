@@ -1,0 +1,13 @@
+npm i bcryptjs cookie-parser cors dotenv express ioredis jsonwebtoken mongoose ts-node-dev @types/bcryptjs @types/cookie-parser @types/
+cors @types/express @types/jsonwebtoken @types/node typescript
+
+Upstash --> serverless platform (we use it for redis)
+Cloudnary -->
+MongoDB -->
+
+npm i ejs @types/ejs nodemailer
+npm i cloudinary
+
+// this is used to create schecduler
+npm i --save node-cron
+npm i --save @types/node-cron

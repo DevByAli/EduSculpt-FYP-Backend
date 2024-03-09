@@ -1,0 +1,15 @@
+export const FAQ = 'FAQ'
+export const ADMIN = 'admin'
+export const BANNER = 'Banner'
+export const LAYOUT = 'layout'
+export const COURSES = 'courses'
+export const AVATARS = 'avatars'
+export const CATEGORIES = 'Categories'
+export const ALL_COURSES = 'allCourses'
+export const ACCESS_TOKEN_EXPIRY = '5m'
+export const REFRESH_TOKEN_EXPIRY = '3d'
+export const ACCESS_TOKEN = 'access_token'
+export const REFRESH_TOKEN = 'refresh_token'
+export const CAHCE_SESSION_EXPIRY_DAYS = 604800 // 7 days
+export const CAHCE_COURSE_EXPIRY_DAYS = 604800 // 7 days
+export const COURSE_DATA_FILTER = '-courseData.videoUrl -courseData.suggestion -courseData.questions -courseData.links'
